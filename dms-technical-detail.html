@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=1280" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <title>Adlibre DMS Technical Detail</title>
+    <meta name="description" content="Adlibre DMS Technical Detail" />
+    <meta name="author" content="Andrew Cutler - Adlibre Pty Ltd" />
+    <link href='http://fonts.googleapis.com/css?family=Asap' rel='stylesheet' type='text/css'>
+    <link href="css/impress-adlibre.css" rel="stylesheet" />
+    <link rel="apple-touch-icon" href="apple-touch-icon.png" />
+    <style>
+        /* Presentation specific Styles */
+        #start div {margin-top:-200px;}
+        #start h1 {font-size: 36px; margin-top: -50px; margin-left:265px;}
+        #scale h1 {font-size: 48px;}
+        #scale h2 {font-size: 300px; line-height:220px; margin-left:-30px;}
+    </style>
+</head>
+<body>
+
+<div id="impress" class="impress-not-supported">
+
+    <div class="fallback-message">
+        <p>Your browser <b>doesn't support the features required</b> by impress.js, so you are presented with a simplified version of this presentation.</p>
+        <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser. Upcoming version 10 of Internet Explorer <i>should</i> also handle it.</p>
+    </div>
+
+    <div id="start" class="step" data-x="-1280" data-y="600" data-rotate="0" data-scale="4">
+        <div>
+            <img src="images/adlibre.svg" width="100%" />
+            <h1>Document Management System</h1>
+        </div>
+    </div>
+
+    <div id="meet-the-cloud" class="step" data-x="-1280" data-y="600" data-rotate="0" data-scale="400">
+        <h1>Document Management: Just met the cloud...</h1>
+    </div>
+    
+    <div id="standards-compliant" class="step" data-x="-1800" data-y="200000" data-scale="500" data-rotate="-90">
+        <h1>With Modern, Standards Compliant Architecture</h1>
+        <p>it's 100% Web Based</p>
+        <p>and Open Source Core</p>
+    </div>   
+
+    <div id="under-the-hood" class="step" data-x="-1280" data-y="900">
+        <h1>Under the hood...</h1>
+        <p>Built with Python & Django</p>
+    </div>
+
+    <div id="storage" class="step" data-x="1280" data-y="0">
+        <h1>Hybrid Storage Approch</h1>
+        <p>PostgreSQL (or SQLite) / CouchDB / Filesystem</p>
+    </div>    
+
+    <div id="multiplatform" class="step" data-x="1280" data-y="600">
+        <h1>Cross Platform</h1>
+        <p>Any Client... Windows, OS X, Linux, iOS, Android</p>
+        <p>Host on any platform too!</p>
+    </div>   
+
+
+    <div id="performance" class="step" data-x="1280" data-y="1200">
+        <h1>Fast!</h1>
+        <p>Light weight (not a behemoth). Easy on system resources.</p>
+        <p>Lighttpd or Nginx fast-cgi deployment. (others too)</p>
+    </div>
+    
+    <div id="resilient" class="step" data-x="1280" data-y="1800">
+        <h1>Resilient</h1>
+        <p>Distributed and fault tolerant (high availability) architectures possible.</p>
+    </div>
+    
+    <div id="scale" class="step" data-x="1280" data-y="2400">
+        <h1>Scale...</h1>
+        <h2>BIG!</h2>
+        <p>Achieve scales that break <br /> traditional filesystems.</p>
+        <p>X^Big  000's documents are possible</p>
+    </div>
+
+    <div id="hosting-options" class="step" data-x="1280" data-y="3000">
+        <h1>Hosting Options</h1>
+        <p>Run in your datacentre or ours...</p>
+        <p>... SAAS or traditional</p>
+    </div>
+    
+    <div id="overview" class="step" data-x="-640" data-y="1280" data-scale="5">
+        <img src="images/dms.png" style="padding-top: 200px;" />
+    </div>
+
+</div>
+
+<div class="hint">
+    <p>Use a spacebar or arrow keys to navigate</p>
+</div>
+
+<script>
+if ("ontouchstart" in document.documentElement) { 
+    document.querySelector(".hint").innerHTML = "<p>Tap on the left or right to navigate</p>";
+}
+</script>
+<script src="js/impress.js"></script>
+<script>impress();</script>
+
+</body>
+</html>
